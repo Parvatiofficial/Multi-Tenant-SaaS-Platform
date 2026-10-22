@@ -24,15 +24,15 @@ flowchart LR
 * **Target PR Title:** `feat(infra): scaffold turborepo monorepo with docker compose`
 
 #### Scope & Deliverables
-- [ ] Initialize Turborepo with npm workspaces.
-- [ ] Setup `apps/api` (NestJS 10.x with TypeScript, config module, and CORS).
-- [ ] Setup `apps/web` (Next.js 15 App Router with Tailwind CSS).
-- [ ] Setup `packages/types` (shared TypeScript interfaces and DTO definitions).
-- [ ] Setup `packages/config` (shared ESLint and TypeScript configs).
-- [ ] Create `docker-compose.yml` defining:
+- [x] Initialize Turborepo with npm workspaces.
+- [x] Setup `apps/api` (NestJS 10.x with TypeScript, config module, and CORS).
+- [x] Setup `apps/web` (Next.js 15 App Router with Tailwind CSS).
+- [x] Setup `packages/types` (shared TypeScript interfaces and DTO definitions).
+- [x] Setup `packages/config` (shared ESLint and TypeScript configs).
+- [x] Create `docker-compose.yml` defining:
   - `postgres` (with `pgvector/pgvector:pg16` image)
   - `redis` (`redis:7-alpine` for BullMQ queues)
-- [ ] Add `.env.example` with local defaults.
+- [x] Add `.env.example` with local defaults.
 
 #### Key Commits for this Branch
 ```bash
