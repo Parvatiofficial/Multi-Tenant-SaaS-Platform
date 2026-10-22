@@ -1,0 +1,16 @@
+{
+  "name": "@documind/types",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "dev": "tsc -w"
+  },
+  "devDependencies": {
+    "@documind/config": "*",
+    "typescript": "^5.6.3"
+  }
+}
