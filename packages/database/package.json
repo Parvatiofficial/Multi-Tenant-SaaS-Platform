@@ -10,15 +10,21 @@
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
     "db:migrate": "prisma migrate dev",
+    "db:seed": "prisma db seed",
     "db:studio": "prisma studio",
     "db:validate": "prisma validate"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
   },
   "dependencies": {
     "@prisma/client": "^5.21.1"
   },
   "devDependencies": {
     "@documind/config": "*",
+    "@types/node": "^22.7.5",
     "prisma": "^5.21.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
   }
 }

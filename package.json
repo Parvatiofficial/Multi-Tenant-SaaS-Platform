@@ -20,6 +20,7 @@
     "db:generate": "npm run db:generate --workspace=@documind/database",
     "db:push": "npm run db:push --workspace=@documind/database",
     "db:migrate": "npm run db:migrate --workspace=@documind/database",
+    "db:seed": "npm run db:seed --workspace=@documind/database",
     "db:studio": "npm run db:studio --workspace=@documind/database"
   },
   "devDependencies": {
